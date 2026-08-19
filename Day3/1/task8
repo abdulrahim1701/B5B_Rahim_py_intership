@@ -1,0 +1,31 @@
+tasks = []
+
+def add_task(task):
+    tasks.append(task)
+
+def remove_task(task):
+    if task in tasks:
+        tasks.remove(task)
+        print("Removed:", task)
+    else:
+        print("Task not found:", task)
+
+def show_tasks():
+    print("\nCurrent Tasks:")
+    for task in tasks:
+        print("-", task)
+
+
+# Add 5 tasks
+add_task("Study Python")
+add_task("Complete homework")
+add_task("Go for a walk")
+add_task("Read a book")
+add_task("Clean the room")
+
+# Remove 2 tasks
+remove_task("Go for a walk")
+remove_task("Clean the room")
+
+# Print remaining tasks
+show_tasks()

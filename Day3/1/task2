@@ -1,0 +1,5 @@
+names = ["riya sharma", "aman gupta", "neha patel", "rahul mehta"]
+
+title_names = [name.title() for name in names]
+
+print(title_names)

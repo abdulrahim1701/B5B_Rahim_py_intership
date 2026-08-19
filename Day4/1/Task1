@@ -1,0 +1,6 @@
+def build_invoice(customer_name, *args, **kwargs):
+    print(f"Customer Name: {customer_name}")
+    print(f"Total: {sum(args)}")
+    
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")

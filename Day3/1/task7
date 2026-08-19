@@ -1,0 +1,5 @@
+names = ["Riya", "Aman", "Sara", "Raj"]
+salaries = [45000, 55000, 40000, 60000]
+
+for name, salary in zip(names, salaries):
+    print(name, ":", salary)

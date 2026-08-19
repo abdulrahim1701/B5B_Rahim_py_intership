@@ -1,0 +1,10 @@
+numbers = [12, 45, 12, 78, 23, 45, 90, 23, 56, 78, 11, 90, 34, 56, 67]
+
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+
+print("Original list:", numbers)
+print("List after removing duplicates:", unique)
